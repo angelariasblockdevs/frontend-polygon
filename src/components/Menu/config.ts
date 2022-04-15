@@ -16,25 +16,13 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
         href: "https://quickswap.exchange/#/swap?outputCurrency=0xbD01698Ab485A7b8092A4e32B9c8B1939F6D2708",
       },
       {
-        label: "Liquidity Quickswap",
-        href:"https://quickswap.exchange/#/add/0x2791bca1f2de4661ed88a30c99a7a9449aa84174/0xbD01698Ab485A7b8092A4e32B9c8B1939F6D2708"
-      },
-      {
         label: "Exchange PolyCat",
         href: "https://polycat.finance/swap",
       },
       {
-        label: "Liquidity PolyCat",
-        href:"https://polycat.finance/liquidity"
-      },
-      {
         label: "Exchange JetSwap",
         href: "https://polygon-exchange.jetswap.finance/#/swap",
-      },
-      {
-        label: "Liquidity JetSwap",
-        href:"https://polygon-exchange.jetswap.finance/#/pool"
-      },        
+      },    
     ],
   },
   {
@@ -43,12 +31,12 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     href: '/farms',
   },
   {
-    label: t('Pools'),
+    label: t('Staking'),
     icon: 'PoolIcon',
     href: '/pools',
   },
   {
-    label: t('Auto Paladdin'),
+    label: t('Auto Pool'),
     icon: 'IfoIcon',
     href: '/poolscherry',
   },
@@ -62,12 +50,8 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: 'InfoIcon',
     items:[
       {
-        label: 'Dexguru',
+        label: 'Polygonscan',
         href:'https://dex.guru/token/0xbD01698Ab485A7b8092A4e32B9c8B1939F6D2708-polygon'
-       },
-       {
-        label: 'PooCoin',
-        href:'https://poocoin.app/tokens/0xbD01698Ab485A7b8092A4e32B9c8B1939F6D2708'
        },
     ]
   },
