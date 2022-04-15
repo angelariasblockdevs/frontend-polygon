@@ -60,7 +60,7 @@ const BountyModal: React.FC<BountyModalProps> = ({ onDismiss, TooltipComponent }
     setPendingTx(true)
     const receipt = await tx.wait()
     if (receipt.status) {
-      toastSuccess(t('Bounty collected!'), t('CHERRY bounty has been sent to your wallet.'))
+      toastSuccess(t('Bounty collected!'), t('PALADDIN bounty has been sent to your wallet.'))
       setPendingTx(false)
       onDismiss()
     } else {
@@ -77,7 +77,7 @@ const BountyModal: React.FC<BountyModalProps> = ({ onDismiss, TooltipComponent }
       <Flex alignItems="flex-start" justifyContent="space-between">
         <Text>{t('You’ll claim')}</Text>
         <Flex flexDirection="column">
-          <Balance bold value={cakeBountyToDisplay} decimals={7} unit=" CHERRY" />
+          <Balance bold value={cakeBountyToDisplay} decimals={7} unit=" PALADDIN" />
           <Text fontSize="12px" color="textSubtle">
             <Balance
               fontSize="12px"
@@ -95,7 +95,7 @@ const BountyModal: React.FC<BountyModalProps> = ({ onDismiss, TooltipComponent }
         <Text fontSize="14px" color="textSubtle">
           {t('Pool total pending yield ')}
         </Text>
-        <Balance color="textSubtle" value={totalYieldToDisplay} unit="CHERRY" />
+        <Balance color="textSubtle" value={totalYieldToDisplay} unit="PALADDIN" />
       </Flex>
       <Flex alignItems="center" justifyContent="space-between" mb="24px">
         <Text fontSize="14px" color="textSubtle">

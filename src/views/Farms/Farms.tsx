@@ -393,7 +393,7 @@ const Farms: React.FC<TypeFarmProps> = ({modeSingleToken}) => {
          
         </Heading>
         <Heading scale="lg" color="text">
-          {modeSingleToken ? 'Stake tokens to earn CHERRY' : t('Stake LP tokens to earn CHERRY')}
+          {modeSingleToken ? 'Stake tokens to earn PALADDIN' : t('Stake LP tokens to earn PALADDIN')}
         </Heading>
       
       </PageHeader>

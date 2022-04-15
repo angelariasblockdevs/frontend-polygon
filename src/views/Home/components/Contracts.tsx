@@ -34,7 +34,7 @@ const Contracts = () => {
           <LinkExternal href="https://polygonscan.com/address/0x15d073a4a6D452a95fB9B3d80cF9e3Dc75BbFDD8#readContract" style={{fontWeight: 500, fontSize: '14px'}}>0x15d073a4a6D452a95fB9B3d80cF9e3Dc75BbFDD8</LinkExternal>
         </Row>
         <Row>
-          <Text fontSize="14px">PolyCherry</Text>
+          <Text fontSize="14px">Paladdin Finance</Text>
           <LinkExternal href="https://polygonscan.com/address/0xbD01698Ab485A7b8092A4e32B9c8B1939F6D2708#readContract" style={{fontWeight: 500, fontSize: '14px'}}>0xbD01698Ab485A7b8092A4e32B9c8B1939F6D2708</LinkExternal>
         </Row>
         <Row>

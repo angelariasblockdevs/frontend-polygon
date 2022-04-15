@@ -7,9 +7,9 @@ const farms: FarmConfig[] = [
    */
    {
 	pid:0,
-	lpSymbol:'CHERRY',
+	lpSymbol:'PALADDIN',
 	lpAddresses: {
-		137:'0x64210822e0e260E76DBA23E89F1b0b5E0A37c2b2', // CHERRY
+		137:'0x64210822e0e260E76DBA23E89F1b0b5E0A37c2b2', // PALADDIN
 		97:'',
 	},
 	quoteToken: tokens.cake,
@@ -199,7 +199,7 @@ const farms: FarmConfig[] = [
 	},
 	{
 		pid:2,
-		lpSymbol:'CHERRY-USDC',
+		lpSymbol:'PALADDIN-USDC',
 		lpAddresses: {
 			97:'',
 			137:'0xbabF3CE40605D46A9ECc95941f4b201c77b693A9',
@@ -211,7 +211,7 @@ const farms: FarmConfig[] = [
 	},
 	{
 	  pid:3,
-	  lpSymbol:'CHERRY-WMATIC',
+	  lpSymbol:'PALADDIN-WMATIC',
 	  lpAddresses: {
 		  97:'',
 		  137:'0x6ba35f017d7cfb6e8f43af8c5a285c6ca06b375b',
@@ -223,7 +223,7 @@ const farms: FarmConfig[] = [
 	},
 	{
 	   pid:4,
-	   lpSymbol:'CHERRY-USDC',
+	   lpSymbol:'PALADDIN-USDC',
 	   lpAddresses: {
 		   97:'',
 		   137:'0x006317cb098696a6eb6b309e42cfda81b69b55a8',
@@ -235,7 +235,7 @@ const farms: FarmConfig[] = [
 	},
 	{
 		pid:5,
-		lpSymbol:'CHERRY-WMATIC',
+		lpSymbol:'PALADDIN-WMATIC',
 		lpAddresses: {
 			97:'',
 			137:'0xe3f34a23802968ff4c3cc01b7aafdb2c3c006c69',
@@ -247,7 +247,7 @@ const farms: FarmConfig[] = [
 	},
 	{
 	   pid:6,
-	   lpSymbol:'CHERRY-NUTS',
+	   lpSymbol:'PALADDIN-NUTS',
 	   lpAddresses: {
 		   97:'',
 		   137:'0x891a4f0e9710965e087d0aeb7e73c8d6f22a2f90',
@@ -259,7 +259,7 @@ const farms: FarmConfig[] = [
 	},
 	{
 		pid:7,
-		lpSymbol:'CHERRY-FISH',
+		lpSymbol:'PALADDIN-FISH',
 		lpAddresses: {
 			97:'',
 			137:'0x0b35b25960be1d585caca635d23e0e963116ff37',
@@ -337,7 +337,7 @@ const farms: FarmConfig[] = [
 	},
 	// {
 	// 	pid:19,
-	// 	lpSymbol:'CHERRY-BNB',
+	// 	lpSymbol:'PALADDIN-BNB',
 	// 	lpAddresses: {
 	// 		97:'0x75EBA90Af6698130BD9DCA27EA8B2BDA965eD16a',
 	// 		137:'0xCC9001bdE0aCd7b87762A402a4322beba55826ae',
@@ -516,7 +516,7 @@ const farms: FarmConfig[] = [
 	// },
 	// {
 	// 	pid:20,
-	// 	lpSymbol:'CHERRY-BUSD',
+	// 	lpSymbol:'PALADDIN-BUSD',
 	// 	lpAddresses: {
 	// 		97:'0x75EBA90Af6698130BD9DCA27EA8B2BDA965eD16a',
 	// 		137:'0xBE421FE4897C24863b52A923B0E136d6b599FEEC',
@@ -548,7 +548,7 @@ const farms: FarmConfig[] = [
 	// },
 	// {
 	// 	pid:29,
-	// 	lpSymbol:'CHERRY-ADA',
+	// 	lpSymbol:'PALADDIN-ADA',
 	// 	lpAddresses: {
 	// 		97:'0x75EBA90Af6698130BD9DCA27EA8B2BDA965eD16a',
 	// 		137:'0x31DFBd4dd18021615D2ab93369e7f7375f4a896b',
@@ -559,7 +559,7 @@ const farms: FarmConfig[] = [
 	// },
 	// {
 	// 	pid:30,
-	// 	lpSymbol:'CHERRY-USDT',
+	// 	lpSymbol:'PALADDIN-USDT',
 	// 	lpAddresses: {
 	// 		97:'0x75EBA90Af6698130BD9DCA27EA8B2BDA965eD16a',
 	// 		137:'0x120d03FeccBC297B561eC24772b4ac8271f6F1aB',
@@ -570,7 +570,7 @@ const farms: FarmConfig[] = [
 	// },
 	// {
 	// 	pid:24,
-	// 	lpSymbol:'CHERRY-CAKE',
+	// 	lpSymbol:'PALADDIN-CAKE',
 	// 	lpAddresses: {
 	// 		97:'0x75EBA90Af6698130BD9DCA27EA8B2BDA965eD16a',
 	// 		137:'0xec749D75C32803DF3cd234797BAb9F3ccE5D7443',
@@ -581,7 +581,7 @@ const farms: FarmConfig[] = [
 	// },
 	// {
 	// 	pid:25,
-	// 	lpSymbol:'CHERRY-DOT',
+	// 	lpSymbol:'PALADDIN-DOT',
 	// 	lpAddresses: {
 	// 		97:'0x75EBA90Af6698130BD9DCA27EA8B2BDA965eD16a',
 	// 		137:'0xF441b63ed3142B4ef0cff40E7673d2353158a83a',
@@ -592,7 +592,7 @@ const farms: FarmConfig[] = [
 	// },
 	// {
 	// 	pid:27,
-	// 	lpSymbol:'CHERRY-BTCB',
+	// 	lpSymbol:'PALADDIN-BTCB',
 	// 	lpAddresses: {
 	// 		97:'0x75EBA90Af6698130BD9DCA27EA8B2BDA965eD16a',
 	// 		137:'0x25DaAEE087a38e14aC7F5A64179E1377D78974A8',

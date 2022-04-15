@@ -4,7 +4,7 @@ const tokens = {
     projectLink: 'https://www.binance.com/',
   },
   cake: {
-    symbol: 'CHERRY',
+    symbol: 'PALADDIN',
     address: {
       // 137: '0xc82f37ca0f011acb2bcd90a6f294e16ebd2e66d8',
       137: '0x64210822e0e260E76DBA23E89F1b0b5E0A37c2b2',

@@ -227,7 +227,7 @@ const Pools: React.FC<PropsPools> = (props) => {
               {autopool ? 'Auto Cherry' : t('Dividends')}
             </Heading>
             <Heading scale="md" color="text">
-              {autopool ? 'Stake ONCE, earn FOREVER' : t('Stake CHERRY to earn USDC, DAI, USDT, and many other tokens')}
+              {autopool ? 'Stake ONCE, earn FOREVER' : t('Stake PALADDIN to earn USDC, DAI, USDT, and many other tokens')}
             </Heading>
             <Heading scale="md" color="text">
               {autopool ? null : t('No Fee, high APR, low risk')}

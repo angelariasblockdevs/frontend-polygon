@@ -11,7 +11,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
         href: 'https://polynuts.farm/',
       },
       {
-        label: 'Layer 2 - PolyCherry',
+        label: 'Layer 2 - Paladdin Finance',
         href: 'https://polycherry.com/',
       },
     ],

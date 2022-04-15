@@ -10,9 +10,9 @@ export const BSC_BLOCK_TIME = 3
 
 // CAKE_PER_BLOCK details
 // 40 CAKE is minted per block
-// 20 CHERRY PER block is sent to Burn pool (A farm just for burning cake)
-// 10 CHERRY PER block goes to CAKE syrup pool
-// 9 CHERRY PER block goes to Yield farms and lottery
+// 20 PALADDIN PER block is sent to Burn pool (A farm just for burning cake)
+// 10 PALADDIN PER block goes to CAKE syrup pool
+// 9 PALADDIN PER block goes to Yield farms and lottery
 // CAKE_PER_BLOCK in config/index.ts = 40 as we only change the amount sent to the burn pool which is effectively a farm.
 // CAKE/Block in src/views/Home/components/CakeStats.tsx = 19 (40 - Amount sent to burn pool)
 

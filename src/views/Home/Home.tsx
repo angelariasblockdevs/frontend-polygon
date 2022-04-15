@@ -73,9 +73,9 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" scale="xl" mb="18px" color="secondary" style={{textAlign:'center'}}>
-          PolyCherry
+          Paladdin Finance
         </Heading>
-        <Text>CHERRY Token has already been launched</Text>
+        <Text>PALADDIN Token has already been launched</Text>
         <Text>Farming will start at</Text>
       </Hero>
       {/* <Text mb="18px" style={{color:'#df2f2f', textAlign: 'center', fontSize: '19px'}}>Yield Farming on Polygon Network</Text> */}
