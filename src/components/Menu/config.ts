@@ -3,20 +3,6 @@ import { ContextApi } from 'contexts/Localization/types'
 
 const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   {
-    label: 'Layered Farming',
-    icon: 'LayerIcon',
-    items: [
-      {
-        label: 'Layer 1 - PolyNuts',
-        href: 'https://polynuts.farm/',
-      },
-      {
-        label: 'Layer 2 - Paladdin Finance',
-        href: 'https://polycherry.com/',
-      },
-    ],
-  },
-  {
     label: t('Home'),
     icon: 'HomeIcon',
     href: '/',
@@ -26,14 +12,29 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: 'TradeIcon',
     items: [
       {
-        label: "Exchange",
+        label: "Exchange Quickswap",
         href: "https://quickswap.exchange/#/swap?outputCurrency=0xbD01698Ab485A7b8092A4e32B9c8B1939F6D2708",
       },
       {
-        label: "Liquidity",
+        label: "Liquidity Quickswap",
         href:"https://quickswap.exchange/#/add/0x2791bca1f2de4661ed88a30c99a7a9449aa84174/0xbD01698Ab485A7b8092A4e32B9c8B1939F6D2708"
       },
-     
+      {
+        label: "Exchange PolyCat",
+        href: "https://polycat.finance/swap",
+      },
+      {
+        label: "Liquidity PolyCat",
+        href:"https://polycat.finance/liquidity"
+      },
+      {
+        label: "Exchange JetSwap",
+        href: "https://polygon-exchange.jetswap.finance/#/swap",
+      },
+      {
+        label: "Liquidity JetSwap",
+        href:"https://polygon-exchange.jetswap.finance/#/pool"
+      },        
     ],
   },
   {
@@ -47,14 +48,9 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     href: '/pools',
   },
   {
-    label: t('Auto Cherry'),
+    label: t('Auto Paladdin'),
     icon: 'IfoIcon',
     href: '/poolscherry',
-  },
-  {
-    label: t('Dividends'),
-    icon: 'BondsIcon',
-    href: '/dividends',
   },
   {
     label: t('Referral'),
@@ -85,7 +81,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
       },
       {
         label: t('Docs'),
-        href: 'https://docs.polycherry.com',
+        href: 'https://docs.paladdinfinance.com',
       },
    
      
@@ -94,7 +90,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   // {
   //   label:'Audited by Quillaudits',
   //   icon:'AuditIcon',
-  //   href:'https://github.com/polycherry/audits'
+  //   href:'https://github.com/paladdinfinance/audits'
   // }
 
 ]
