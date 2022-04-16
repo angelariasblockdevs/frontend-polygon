@@ -47,9 +47,6 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-      <AssureKyc target="_blank" rel="noreferrer" href="https://wallet.polygon.technology/bridge/">
-        <img src="/images/polygon-bridge.png" alt="paladin" />
-      </AssureKyc>
       <PanelFooter {...props} />
     </StyledPanel>
   );
