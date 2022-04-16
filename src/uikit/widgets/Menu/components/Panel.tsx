@@ -47,12 +47,9 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-      <AssureKyc target="_blank" rel="noreferrer" href="https://paladinsec.co/polycherry/">
-        <img src="/images/audited-by-paladin-standard.png" alt="paladin" />
+      <AssureKyc target="_blank" rel="noreferrer" href="https://wallet.polygon.technology/bridge/">
+        <img src="/images/polygon-bridge.png" alt="paladin" />
       </AssureKyc>
-      <RugDoc target="_blank" rel="noreferrer" href="https://rugdoc.io/project/polycherry/">
-        <img src="/images/rugdoc-dark.png" alt="rugdoc" />
-      </RugDoc>
       <PanelFooter {...props} />
     </StyledPanel>
   );
