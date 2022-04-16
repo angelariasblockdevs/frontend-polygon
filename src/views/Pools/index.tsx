@@ -224,7 +224,7 @@ const Pools: React.FC<PropsPools> = (props) => {
         <Flex justifyContent="space-between" flexDirection={['column', null, null, 'row']}>
           <Flex flex="2" flexDirection="column" mr={['8px', 0]}>
             <Heading as="h1" scale="xxl" color="secondary" mb="24px">
-              {autopool ? 'Auto Cherry' : t('Dividends')}
+              {autopool ? 'Auto Paladdin' : t('Dividends')}
             </Heading>
             <Heading scale="md" color="text">
               {autopool ? 'Stake ONCE, earn FOREVER' : t('Stake PALADDIN to earn USDC, DAI, USDT, and many other tokens')}
