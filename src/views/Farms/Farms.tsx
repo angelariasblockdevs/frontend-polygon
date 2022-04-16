@@ -389,7 +389,7 @@ const Farms: React.FC<TypeFarmProps> = ({modeSingleToken}) => {
     <>
       <PageHeader>
         <Heading as="h1" scale="xxl" color="secondary" mb="24px">
-         {modeSingleToken ? 'Pools' : 'Farms'}
+         {modeSingleToken ? 'Staking' : 'Farms'}
          
         </Heading>
         <Heading scale="lg" color="text">
